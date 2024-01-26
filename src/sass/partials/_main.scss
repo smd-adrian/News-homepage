@@ -1,0 +1,22 @@
+body {
+    background-color: $offWhite;
+    color: $darkGrayishBlue;
+    font-family: $interRegular;
+    font-size: 15px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.wrapper-main {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+// Attribution
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}

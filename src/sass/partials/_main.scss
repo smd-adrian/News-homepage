@@ -1,3 +1,13 @@
+a {
+    text-decoration: none;
+}
+img {
+    max-width: 100%;
+}
+p {
+    line-height: 25px;
+}
+
 body {
     background-color: $offWhite;
     color: $darkGrayishBlue;
@@ -7,15 +17,168 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
-.wrapper-main {
-    max-width: 1170px;
-    margin: 0 auto;
+header {
+    position: relative;
+    padding: 85px 0 55px;
+    .top-navigation-main {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        nav {
+            position: relative;
+            ul {
+                margin: 0;
+                padding: 0;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                list-style: none;
+                li {
+                    margin-left: 35px;
+                    a {
+                        color: $darkGrayishBlue;
+                        font-size: 16px;
+                        &:hover {
+                            color: $softRed;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.articles {
+    position: relative;
+    .featured {
+        position: relative;
+        overflow: hidden;
+        figure {
+            margin: 0;
+            transition: 0.4s ease;
+            &:hover {
+                transform: scale(1.08);
+            }
+            img {
+                width: 100%;
+            }
+        }
+        .content {
+            position: relative;
+            margin-top: 25px;
+            h2 {
+                margin: 0px;
+                color: $veryDarkBlue;
+                font-size: 50px;
+                font-family: $interExtraBold;
+            }
+            p {
+                margin: 0;
+                margin-bottom: 15px;
+            }
+            .readmore {
+                position: relative;
+                vertical-align: bottom;
+                a {
+                    background-color: $softRed;
+                    color: $offWhite;
+                    display: inline-block;
+                    padding: 13px 25px;
+                    text-transform: uppercase;
+                    letter-spacing: 5px;
+                    transition: 0.3s;
+                    &:hover {
+                        background-color: $veryDarkBlue;
+                        color: $grayishBlue;
+                    }
+                }
+            }
+        }
+    }
+    .sidebar {
+        position: relative;
+        background-color: $veryDarkBlue;
+        height: 100%;
+        width: 100%;
+        display: flex;
+        .news {
+            display: inline-block;
+            padding: 15px;
+            h3 {
+                color: $softOrange;
+                font-family: $interBold;
+                font-size: 30px;
+                margin: 15px 0px 30px;
+            }
+            article {
+                position: relative;
+                h4 {
+                    color: $offWhite;
+                    font-family: $interBold;
+                    font-size: 20px;
+                    margin: 0;
+                    margin-bottom: 10px;
+                    transition: 0.3s;
+                    &:hover {
+                        color: $softOrange;
+                    }
+                }
+                p {
+                    margin: 0;
+                    color: $grayishBlue;
+                }
+            }
+            hr {
+                border-bottom: 1px solid $grayishBlue;
+                margin: 25px 0px;
+            }
+        }
+    }
+}
+
+.top-articles {
+    margin-top: 72px;
+    margin-bottom: 50px;
+    article {
+        position: relative;
+        figure {
+            margin: 0;
+            float: left;
+            margin-right: 25px;
+            img {
+                width: 100px;
+            }
+        }
+        .content {
+            position: relative;
+            .number {
+                span {
+                    font-family: $interBold;
+                    color: $grayishBlue;
+                    font-size: 25px;
+                }
+            }
+            h4 {
+                margin: 0;
+                color: $veryDarkBlue;
+                font-family: $interBold;
+                margin-top: 15px;
+                margin-bottom: 20;
+                font-size: 20px;
+                transition: 0.3s;
+                &:hover {
+                    color: $softRed;
+                }
+            }
+        }
+    }
 }
 
 // Attribution
 .attribution {
     font-size: 11px;
     text-align: center;
+    margin-bottom: 15px;
 }
 .attribution a {
     color: hsl(228, 45%, 44%);

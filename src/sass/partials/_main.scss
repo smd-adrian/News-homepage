@@ -24,8 +24,14 @@ header {
         display: flex;
         align-items: center;
         justify-content: space-between;
-        nav {
+        .mobile-menu {
+            display: none;
+        }
+        .main-menu {
             position: relative;
+            .mobile-menu-close {
+                display: none;
+            }
             ul {
                 margin: 0;
                 padding: 0;
@@ -159,16 +165,17 @@ header {
                 }
             }
             h4 {
-                margin: 0;
+                margin: 15px 0px 0px;
                 color: $veryDarkBlue;
                 font-family: $interBold;
-                margin-top: 15px;
-                margin-bottom: 20;
                 font-size: 20px;
                 transition: 0.3s;
                 &:hover {
                     color: $softRed;
                 }
+            }
+            p {
+                margin: 10px 0px 0px;
             }
         }
     }

@@ -18,6 +18,12 @@
 
         <link rel="stylesheet" href="./dist/css/vendors.css" />
         <link rel="stylesheet" href="./dist/css/app.css" />
+        <script
+            type="text/javascript"
+            src="./dist/js/app.js"
+            async
+            defer
+        ></script>
     </head>
 
     <body>
@@ -27,7 +33,19 @@
                     <div class="logo">
                         <img src="./assets/images/logo.svg" alt="w-logo" />
                     </div>
-                    <nav class="d-none d-md-block">
+                    <div class="mobile-menu" id="mobile-icon-menu">
+                        <img
+                            src="./assets/images/icon-menu.svg"
+                            alt="icon-menu"
+                        />
+                    </div>
+                    <nav class="main-menu">
+                        <div class="mobile-menu-close">
+                            <img
+                                src="./assets/images/icon-menu.svg"
+                                alt="icon-menu"
+                            />
+                        </div>
                         <ul>
                             <li><a href="#">Home</a></li>
                             <li><a href="#">News</a></li>
@@ -208,12 +226,5 @@
                 >.
             </div>
         </footer>
-
-        <script
-            type="text/javascript"
-            src="./dist/js/app.js"
-            async
-            defer
-        ></script>
     </body>
 </html>

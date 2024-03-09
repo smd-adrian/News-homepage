@@ -6,7 +6,7 @@ if (process.env.npm_lifecycle_event !== 'watch') {
     mix.combine(
         [
             './node_modules/normalize.css/normalize.css',
-            './node_modules/bootstrap/dist/css/bootstrap-grid.min.css',
+            // './node_modules/bootstrap/dist/css/bootstrap-grid.min.css',
         ],
         'dist/css/vendors.css'
     );

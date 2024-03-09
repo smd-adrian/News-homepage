@@ -1,17 +1,23 @@
-console.log('Starting');
+document
+    .getElementById('mobile-icon-menu')
+    .addEventListener('click', function () {
+        toggleMenuMobile();
+    });
 
-// function myFunction(x) {
-//     x.classList.toggle('change');
-// }
+function toggleMenuMobile() {
+    let menu = document.querySelector('.main-menu');
+    menu.classList.toggle('show-menu');
+}
 
-// Obtén el elemento por su id
-// let mobileIcon = document.getElementById('mobile-icon-menu');
+document
+    .getElementById('mobile-icon-close-menu')
+    .addEventListener('click', function () {
+        closeMenuMobile();
+    });
 
-// // Agrega un evento de clic al elemento
-// mobileIcon.addEventListener('click', function () {
-//     // Ejecuta el código toggle al hacer clic
-//     this.classList.toggle('change');
-// });
+function closeMenuMobile() {
+    let menu = document.querySelector('.main-menu');
+    menu.classList.remove('show-menu');
+}
 
-// let mainMenu = document.querySelectorAll('.main-menu');
-// mainMenu.style.display = 'block';
+console.log('Full load!');

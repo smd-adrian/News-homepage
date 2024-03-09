@@ -67,6 +67,8 @@ header {
             }
             img {
                 width: 100%;
+                object-fit: cover;
+                height: 300px;
             }
         }
         .content {
@@ -165,7 +167,7 @@ header {
                 }
             }
             h4 {
-                margin: 15px 0px 0px;
+                margin: 5px 0px 0px;
                 color: $veryDarkBlue;
                 font-family: $interBold;
                 font-size: 20px;

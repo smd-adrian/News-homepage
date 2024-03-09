@@ -41,8 +41,8 @@ Users should be able to:
 -   Flexbox
 -   CSS Grid
 -   Mobile-first workflow
--   [Bootstrap](https://getbootstrap.com/) - Build fast, responsive sites with Bootstrap
--   [Laravel Mix](https://laravel-mix.com) - An elegant wrapper around Webpack for the 80% use case
+-   [Bootstrap](https://getbootstrap.com/) - Build fast, responsive sites with Bootstrap.
+-   [Laravel Mix](https://laravel-mix.com) - An elegant wrapper around Webpack for the 80% use case.
 
 ## Author
 

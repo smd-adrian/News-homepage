@@ -30,7 +30,7 @@ Users should be able to:
 ### Links
 
 -   Solution URL: [Add solution URL here](https://github.com/smd-adrian/news-homepage/tree/main)
--   Live Site URL: [Add live site URL here](ttps://smd-adrian.github.io/news-homepage/)
+-   Live Site URL: [Add live site URL here](https://smd-adrian.github.io/news-homepage/)
 
 ## My process
 

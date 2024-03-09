@@ -42,7 +42,7 @@ Users should be able to:
 -   CSS Grid
 -   Mobile-first workflow
 -   [Bootstrap](https://getbootstrap.com/) - Build fast, responsive sites with Bootstrap
--   [Laravel Mix](https://laravel-mix.com) - An elegant wrapper around Webpack for the 80% use case.
+-   [Laravel Mix](https://laravel-mix.com) - An elegant wrapper around Webpack for the 80% use case
 
 ## Author
 
